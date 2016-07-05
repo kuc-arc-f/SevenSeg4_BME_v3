@@ -4,14 +4,14 @@
 */
 #include <ESP8266WiFi.h>
 
-const char* ssid = "aterm-b1f792-g";
-const char* password = "6c600f2ccfc11";
+const char* ssid = "";
+const char* password = "";
 
 const char* host = "api.thingspeak.com";
 String mTimeStr="";
 static uint32_t mTimerTmp;
 
-String mAPI_KEY="TJE2K2OGGYHZI69A";
+String mAPI_KEY="your-KEY";
 
 //
 void setup() {
